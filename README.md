@@ -98,7 +98,7 @@ python app.py
 
 ## ▶️ Bước 3: Giao diện gửi CV
 
-<img src="img/giao diên.png" alt="" width="200"/>
+<img src="img/giao diên.png" alt="" width="200px" hight="200px"/>
 
 ---
 
@@ -130,6 +130,4 @@ python app.py
 - Hệ thống **không sử dụng email thực** — đây là mô phỏng quá trình gửi CV an toàn.
 - Nếu cần gửi thực qua email, có thể kết hợp thêm SMTP sau bước mã hóa.
 
----
 
-> ✨ Đây là hệ thống phù hợp cho đồ án môn **An toàn thông tin**, **Mạng máy tính**, hoặc các dự án yêu cầu **bảo mật dữ liệu**.
