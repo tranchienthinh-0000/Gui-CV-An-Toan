@@ -3,7 +3,7 @@
 
 <div align="center">
   <p align="center">
-    <img src="logoDaiNam.png" alt="DaiNam University Logo" width="200"/>
+    <img src="img/logoDaiNam.png" alt="DaiNam University Logo" width="200"/>
   </p>
 </div>
 
@@ -98,7 +98,7 @@ python app.py
 
 ## ▶️ Bước 3: Giao diện gửi CV
 
-<img src="logoDaiNam.png" alt="DaiNam University Logo" width="200"/>
+<img src="img/giao dien.png" alt="giao dien cv" width="200"/>
 
 ---
 
