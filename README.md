@@ -98,7 +98,7 @@ python app.py
 
 ## ▶️ Bước 3: Giao diện gửi CV
 
-- Mở trình duyệt và truy cập: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+<img src="logoDaiNam.png" alt="DaiNam University Logo" width="200"/>
 
 ---
 
