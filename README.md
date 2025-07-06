@@ -98,7 +98,7 @@ python app.py
 
 ## ▶️ Bước 3: Giao diện gửi CV
 
-<img src="img/giao diên.png" alt="" width="200px" hight="200px"/>
+<img src="img/giao diên.png" alt="" width="700px" hight="700px"/>
 
 ---
 
