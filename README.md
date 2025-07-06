@@ -109,7 +109,7 @@ python app.py
 | `1`     | Gửi file PDF đúng định dạng từ IP hợp lệ            | Server phản hồi `ACK`           |
 | `2a`    | Gửi file không đúng định dạng PDF                   | Server từ chối (`NACK`)         |
 | `3a`    | IP nằm ngoài danh sách `allowed_ips.json`           | Kết nối bị từ chối ngay lập tức |
-| `3b`    | Giả mạo IP trong metadata không trùng IP thực tế   | Server từ chối xác thực         |
+
 
 ---
 
