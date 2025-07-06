@@ -1,0 +1,35 @@
+// Secure Communication Flow
+digraph {
+	nodesep=1.0 rankdir=LR splines=true
+	node [fillcolor=lightgray shape=box style="rounded,filled"]
+	C [label="[Client]"]
+	H [label="Handshake: Hello! IP"]
+	S [label="[Server]"]
+	A [label="Check IP in allowed_ips.json"]
+	K1 [label="Send RSA Public Key"]
+	K2 [label="Send RSA Public Key"]
+	L [label="SQLite: Log"]
+	M [label="Send JSON:
+Metadata, SHA512 Signature,
+AES Key (RSA-PKCS1_OAEP)"]
+	D [label="Send JSON:
+IV, Ciphertext, SHA512 Hash,
+Signature"]
+	V [label="Verify, Decrypt,
+Save PDF"]
+	R1 [label="Receive ACK/NACK"]
+	R2 [label="Send ACK/NACK,
+Log to SQLite"]
+	C -> H [label=""]
+	H -> S [label=""]
+	S -> A [label=""]
+	C -> K1 [label=""]
+	S -> K2 [label=""]
+	S -> L [label="Log IP"]
+	C -> M [label=""]
+	S -> M [label=""]
+	C -> D [label=""]
+	D -> V [label=""]
+	S -> R2 [label=""]
+	R2 -> C [label="ACK/NACK"]
+}
